@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWS APP</title>
+</head>
+
+<body>
+    <h4>BBC NEWS API- PLP HACKTHON APRIL 2024</h4>
+    {% for item in articles %}
+
+    <p>Author: {{item.author}} </p>
+    <p>Title :{{item.title}} </p>
+    <p>published at: {{item.publishedAt}}, <strong> source:{{item.source.name}}</strong> </p>
+    <img src="{{item.urlToImage}}" alt="image not found" height="250px" width="250px">
+    <p>Description :{{item.description}}</p>
+    <a href="{{ item.url }}" target="_blank">Read More</a><br />
+
+    {% endfor %}
+
+</body>
+
+</html>
