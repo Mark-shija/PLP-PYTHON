@@ -1,4 +1,8 @@
 ### NEWS API APP WITH DJANGO- PLP HACKTHON APRIL 2024
+- Author: Mark Shija
+-  Date: April 27, 2024
+
+### Introduction
 
 - This repository contains all concept we learned about django views and routing (urls) with API requests.
 
