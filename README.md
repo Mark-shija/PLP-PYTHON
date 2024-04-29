@@ -2,7 +2,9 @@
 - Author: Mark Shija
 -  Date: April 27, 2024.
 
-![programInterface](HACKTHON 2024/Interface.png)
+
+![programInterface](Interface.png)
+
 
 
 
@@ -11,6 +13,7 @@
 - This repository contains all concept we learned about django views and routing (urls) with API requests.
 
 - The project works with NewsAPI to retrive real time news from different sources.
+The app is having customized features that can help a user to fetch news based on country and based on categories such as Health, Science, business, Entertainment, sports and Technology related news. It uses Django as the backend framework for our application.
 
 ### INSTALLATION
 
